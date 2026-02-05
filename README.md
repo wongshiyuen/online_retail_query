@@ -11,9 +11,9 @@ By focusing on sales, returns, and customer/product rankings, this project illus
 ## Repository Contents
 This repository contains the following files:
 |File                      |Description      
-|:-------------------------|:-----------------------------------------------------------------------------------------------
+|:-------------------------|:-------------------------------------------------------------------------------------------------------------------------
 |retailQuery.sql           |SQL file containing a total of 4 queries for year 2009/2010 of the Online Retail Dataset
-|OnlineRetail_2009_2010.csv|CSV file extracted from original Online Retail Dataset; contains retail data for year 2009/2010
+|OnlineRetail_2009_2010.csv|CSV file extracted from original Online Retail Dataset (for convenience purposes); contains retail data for year 2009/2010
 
 The queries in retailQuery.sql are as follows:
 |Query No.|Query Objective                     
