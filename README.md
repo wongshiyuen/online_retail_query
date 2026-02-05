@@ -13,7 +13,7 @@ This repository contains the following files:
 |File                      |Description      
 |:-------------------------|:-----------------------------------------------------------------------------------------------
 |retailQuery.sql           |SQL file containing a total of 4 queries for year 2009/2010 of the Online Retail Dataset
-|OnlineRetail_2009_2010.csv|CSV file extracted from original Online Retail Dataset; contains retail data for year 2009//2010
+|OnlineRetail_2009_2010.csv|CSV file extracted from original Online Retail Dataset; contains retail data for year 2009/2010
 
 The queries in retailQuery.sql are as follows:
 |Query No.|Query Objective                     
@@ -36,6 +36,7 @@ The following are the procedures for downloading the required dataset and runnin
 4. Run queries:
    ```bash
    psql -U postgres -d retail_db -f retailQuery.sql
+   ```
 
 ## Data Attribution
 This project uses the Online Retail Data Set by Vijaykumar Ummadisetty. Dataset available on Kaggle (https://www.kaggle.com/datasets/vijayuv/onlineretail). Licensed under CC0: Public Domain.
