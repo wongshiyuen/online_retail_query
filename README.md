@@ -16,5 +16,14 @@ The queries in retailQuery.sql are as follows:
 |3        |Identify biggest customers by sales for year 2009/2010 (ignore customers with no customer ID)
 |4        |Identify highest-revenue products for year 2009/2010
 
+## Requirements
+
+## Getting Started
+The following are the procedures for downloading the required dataset and running the SQL file in this repository:
+1. Download the Online Retail Data Set from Kaggle (or any other available repositories). The dataset is in the form of an Excel file with 2 worksheets ('Year 2009-2010' and 'Year 2010-2011').
+2. Save the 'Year 2009-2010' as 'OnlineRetail_2009_2010.csv'. For the SQL file in this repository, the file location was set to 'C:\Program Files\PostgreSQL\18\data\OnelineRetail\OnlineRetail_2009_2010.csv'.
+3. Login into PSQL on cmd.
+4. Run SQL file by typing: \i {insert filepath}.
+
 ## Data Attribution
 This project uses the Online Retail Data Set by Vijaykumar Ummadisetty. Dataset available on Kaggle (https://www.kaggle.com/datasets/vijayuv/onlineretail). Licensed under CC0: Public Domain.
