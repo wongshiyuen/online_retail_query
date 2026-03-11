@@ -12,7 +12,7 @@ CREATE TABLE OnlineRetail_2009_2010(
 	country VARCHAR(50)
 );
 
-\copy OnlineRetail_2009_2010 FROM 'C:\\Program Files\\PostgreSQL\\18\\data\\OnelineRetail\\OnlineRetail_2009_2010.csv' DELIMITER ',' CSV HEADER;
+\copy OnlineRetail_2009_2010 FROM 'OnlineRetail_2009_2010.csv' DELIMITER ',' CSV HEADER;
 --Consider ',' as data separator
 --Read file as CSV file and skip first line
 --Note: Unlike normal SQL, meta‑commands are parsed by psql client itself; they don’t support line breaks the way SQL statements do.
@@ -47,4 +47,5 @@ LIMIT 10;
 SELECT stock_code, description, SUM(quantity) AS total_sold, SUM(quantity*unit_price) AS sales FROM OnlineRetail_2009_2010
 GROUP BY stock_code, description
 ORDER BY sales DESC
+
 LIMIT 20;
