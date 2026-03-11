@@ -29,10 +29,19 @@ The queries in retailQuery.sql are as follows:
 
 ## Getting Started
 The following are the procedures for downloading the required dataset and running the SQL file in this repository:
-1. Download dataset from Kaggle.
-2. Save worksheet 'Year 2009-2010' as `OnlineRetail_2009_2010.csv`.
-3. Adjust file path in SQL script to match your environment. Update the COPY or \copy command in retailQuery.sql so it points to the correct location of your CSV file.
-4. Run queries:
+1. **Download files**
+   - Clone or download this repository to get the SQL and Python files.
+   - Download the dataset from Kaggle and worksheet **'Year 2009-2010'** as **`OnlineRetail_2009_2010.csv`**.
+2. **Organize files**
+   - Place the dataset and code files inside the same project folder (repo root).
+   - Example structure:
+     ```
+     retail_analysis/
+     ├── README.md
+     ├── retailQuery.sql
+     └── OnlineRetail_2009_2010.csv
+     ```
+3. **Run the analysis:**
    ```bash
    psql -U postgres -d your_database -f retailQuery.sql
    ```
