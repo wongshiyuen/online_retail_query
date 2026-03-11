@@ -32,13 +32,9 @@ The following are the procedures for downloading the required dataset and runnin
 1. Download dataset from Kaggle.
 2. Save worksheet 'Year 2009-2010' as `OnlineRetail_2009_2010.csv`.
 3. Adjust file path in SQL script to match your environment. Update the COPY or \copy command in retailQuery.sql so it points to the correct location of your CSV file.
-4. Create the database (only needed once):
+4. Run queries:
    ```bash
-   psql -U postgres -c "CREATE DATABASE retail_db;"
-   ```
-6. Run queries:
-   ```bash
-   psql -U postgres -d retail_db -f retailQuery.sql
+   psql -U postgres -d your_database -f retailQuery.sql
    ```
 
 ## Data Attribution
